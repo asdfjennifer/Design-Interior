@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*================= FONTS =================
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+
+                COLORS
+
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+
+                LINK
+https://www.youtube.com/watch?v=GI71fXmRrLM
+============= GENERAL STYLES ==============*/
+
+body {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*================ HEADER =================*/
+
+header {
+    background: url("../img/design-interior-1.jpg")  top right no-repeat;
+    /* position: top right; */
+    height: 94vh;
+    background-size: 60%;
+    /* width: 150vh; */
+    /* width: 100%;  */
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 6em;
+    color: #000;
+    margin: 35vh 0 0 12%;
+    position: absolute;
+}
+
+header p {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    color: #000;
+    margin: 55vh 0 0 10%;
+    position: absolute;
+} 
+
+/* header img {
+    width: 50%;
+    position: absolute;
+    position: top right;
+} */
+
+/* NAVIGATION */
+main nav {
+    background: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main nav ul {
+    display: inline;
+    /* justify-content: center;
+    text-align: right;
+    align-items: center; */
+} 
+
+main nav ul li {
+    display: inline;
+    /* justify-content: center; */
+    /* text-align: right; */
+    /* align-items: center;  */
+}
+
+main nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5vw;
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+nav a:hover {
+    color: lightgrey;
+}
+
+
+
+/*================ FOOTER =================*/
+footer {
+    background: #1d2c2f;
+    font-family: 'Lora', serif;
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer span {
+    display: flex;
+    justify-content: space-between;
+} */
+
+footer ul {
+    display: inline;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1vw;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightgrey;
+}
+/*=========================================*/
+
+@media only screen and (min-width: 600px) {
+
+}
