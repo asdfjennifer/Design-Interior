@@ -117,9 +117,9 @@ h2, h3, h4 {
 
 main section:nth-of-type(2) {
     color: #000;
-    display: inline;
+    /* display: inline;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 h3 {
@@ -130,25 +130,62 @@ h3 {
 
 main section:nth-of-type(2) p {
     text-align: left;
-    margin: 3vh 0 0 30%; 
-    width: 60vw;
+    margin: 3vh 0 20vh 30%; 
+    width: 40vw;
     word-spacing: 1vw;
-    /* line-height: 0.5em; */
+    line-height: 2.5em; 
 }
+
+/* IMAGES */
 
 main section:nth-of-type(2) img {
     /* margin: 5vh 0 0 0; */
     width: 30%;
-    display: inline;
-    justify-content: center;
+    /* display: inline;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 20px; */
 }
 
-/* main section:nth-of-type(2) span {
-    display: block;
-} */
+main section:nth-of-type(2) div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: -5vh 0 0 0;
+}
+
+/* IMAGES BY */
+main section:nth-of-type(2) div:nth-of-type(2) {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin: -8vh 0 0; */
+}
+
+main section:nth-of-type(2) span {
+    display: inline;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
+    color: grey;
+    word-spacing: 0.5em; 
+}
+
+main section:nth-of-type(2) span:nth-of-type(1) {
+    /* color: blue;  */
+    /* width: 25%; */
+    /* margin: 0 0 0 4%; */
+}
+
+main section:nth-of-type(2) span:nth-of-type(2) {
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    /* color: red; */
+    margin: 0 5% 10vh 5%;
+}
 
 /* SECTION 3 - GET IN TOUCH */
 
