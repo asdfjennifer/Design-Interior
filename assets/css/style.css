@@ -23,6 +23,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+h2, h3, h4 {
+    font-size: 3em;
+}
+
 /*================ HEADER =================*/
 
 header {
@@ -64,7 +68,13 @@ main nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%; */
 
 main nav ul {
     display: inline;
@@ -94,23 +104,57 @@ nav a:hover {
 
 /* SECTION 1 - OUR STORY */
 
-main section:nth-of-type(1) {
-    background: #2e2e2e;
+container {
     display: flex;
+    align-items: center;
+    justify-content: center
+}
 
+/* main section:nth-of-type(1) img {
+    max-width: 100%
+} */
+
+/* .image {
+    flex-basis: 40%
+} */
+
+main section:nth-of-type(1) {
+    /* background: url("../img/story.jpg") */
+    background: #2e2e2e;
+    /* display: flex; */
+    /* display: inline;
+    justify-content: flex-start;
+    align-items: flex-start; */
 }
 
 main section:nth-of-type(1) img {
-    width: 55%;
-    position: relative;
+    width: 60%;
+    margin: 15vh 0;
+    /* position: relative; */
+}
+
+h2, 
+main section:nth-of-type(1) img {
+    /* display: inline;
+    justify-content: center;
+    align-items: center; */
 }
 
 h2 {
     font-family: 'Lora', serif;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: -10vh 0; */
 }
 
-h2, h3, h4 {
-    font-size: 3em;
+main section:nth-of-type(1) p {
+    font-size: 1em;
+    display: inline;
+    width: 40%;
+    /* margin: 0 10% 0 0; */
+    word-spacing:1em;
+    line-height: 2em;
 }
 
 /* SECTION 2 - FEATURED */
@@ -185,6 +229,11 @@ main section:nth-of-type(2) span:nth-of-type(2) {
     align-items: center;
     /* color: red; */
     margin: 0 5% 10vh 5%;
+}
+
+/* YOUTUBE VID */
+iframe {
+    margin: 0 33% 15vh; 
 }
 
 /* SECTION 3 - GET IN TOUCH */
@@ -277,6 +326,46 @@ footer a:hover {
 }
 /*=========================================*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+    header {
+        width: 100%;
+        background-size: 100%;
+    }
 
+    h1 {
+        margin: 60vh 25%;
+    }
+
+    header p {
+        margin: 75vh 20%;
+    }
+
+    main nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main nav a {
+        margin: 0 1vw;
+    }
+
+    main section:nth-of-type(1) img {
+        width: 100%;
+    }
+
+    main section:nth-of-type(2) span {
+        word-spacing: 0; 
+        font-size: 0.5em;
+    }
+
+    iframe {
+        width: 100%;
+        margin: 0 ;
+    }
+
+    main section:nth-of-type(3) {
+        display: inline-block;
+        width: 100%;
+    }
 }
