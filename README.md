@@ -6,9 +6,9 @@ new project // 26-04-2022
 + @keyframes-Animation 
 
 Übungen zu 
-• Forms
-• Input 
-• Flexbox
++ Forms
++ Input 
++ Flexbox
 
 Ergebnis:
 https://asdfjennifer.github.io/Design-Interior/
