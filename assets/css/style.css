@@ -93,31 +93,33 @@ nav a:hover {
 
 /* SECTION 1 - OUR STORY */
 
-container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
 main section:nth-of-type(1) {
     background: #2e2e2e;
+    display: flex;
+    padding: 10vh 0;
 }
 
-main section:nth-of-type(1) img {
-    width: 60%;
-    margin: 15vh 0;
+main section:nth-of-type(1) div:nth-of-type(1) {
+    flex-basis: 55%;
+    background: url("../img/story.jpg") center / cover no-repeat;
+}
+
+main section:nth-of-type(1) div:nth-of-type(2) {
+    flex-basis: 45%;
+    padding: 10vh 5% 15vh;
 }
 
 h2 {
     font-family: 'Lora', serif;
+    text-align: center;
 }
 
 main section:nth-of-type(1) p {
-    font-size: 1em;
-    display: inline;
-    width: 40%;
-    word-spacing:1em;
     line-height: 2em;
+    margin-top: 3vh;
+    font-size: 1em;
+    text-align: justify;
+    word-spacing: 1em;
 }
 
 /* SECTION 2 - FEATURED */
@@ -281,6 +283,19 @@ footer a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    /* OUR STORY */
+    main section:nth-of-type(1) {
+        flex-direction: column;
+    }
+
+    main section:nth-of-type(1) div:nth-of-type(1) {
+        flex-basis: 100%;
+    }
+
+    main section:nth-of-type(1) div:nth-of-type(2) {
+        flex-basis: 100%;
     }
 
     /* NAV */
