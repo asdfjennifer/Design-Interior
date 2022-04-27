@@ -13,7 +13,8 @@ https://asdfjennifer.github.io/Design-Interior/
 Verwendete Technologien:
 - HTML 
 - CSS 
-- JS 
 
 
 love, Jenni
+
+Note: sticky navbar, our story, input felder noch zu bearbeiten
