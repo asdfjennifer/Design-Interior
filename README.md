@@ -6,6 +6,7 @@ new project // 26-04-2022
 - Input Formular
 - Flexbox
 - Media Queries
+- Einbetten von Youtube Videos
 
 Ergebnis:
 https://asdfjennifer.github.io/Design-Interior/
