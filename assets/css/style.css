@@ -25,14 +25,16 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-size: 3em;
 }
 
 /*================ HEADER =================*/
 
 header {
-    background: url("../img/design-interior-1.jpg")  top right no-repeat;
+    background: url("../img/design-interior-1.jpg") top right no-repeat;
     height: 90vh;
     background-size: 60%;
 }
@@ -51,7 +53,7 @@ header p {
     color: #000;
     margin: 55vh 0 0 10%;
     position: absolute;
-} 
+}
 
 /*================= MAIN ==================*/
 
@@ -131,15 +133,15 @@ main section:nth-of-type(2) {
 h3 {
     font-family: 'Lora', serif;
     text-align: center;
-    margin: 30vh 0 0 0; 
+    margin: 30vh 0 0 0;
 }
 
 main section:nth-of-type(2) p {
     text-align: left;
-    margin: 3vh 0 20vh 30%; 
+    margin: 3vh 0 20vh 30%;
     width: 40vw;
     word-spacing: 1vw;
-    line-height: 2.5em; 
+    line-height: 2.5em;
 }
 
 /* IMAGES */
@@ -168,7 +170,7 @@ main section:nth-of-type(2) span {
     align-items: center;
     text-align: center;
     color: grey;
-    word-spacing: 0.5em; 
+    word-spacing: 0.5em;
 }
 
 main section:nth-of-type(2) span:nth-of-type(2) {
@@ -180,7 +182,7 @@ main section:nth-of-type(2) span:nth-of-type(2) {
 
 /* YOUTUBE VID */
 iframe {
-    margin: 0 33% 15vh; 
+    margin: 0 33% 15vh;
 }
 
 /* SECTION 3 - GET IN TOUCH */
@@ -196,7 +198,7 @@ h4 {
 
 main section:nth-of-type(3) p {
     width: 75%;
-    line-height:2em;
+    line-height: 2em;
     margin: 5vh 0 0 0;
     display: block;
     word-spacing: 1em;
@@ -260,6 +262,7 @@ footer a {
 footer a:hover {
     color: lightgrey;
 }
+
 /*============ MEDIA QUERIES ==============*/
 
 @media only screen and (max-width: 600px) {
@@ -271,11 +274,11 @@ footer a:hover {
     }
 
     h1 {
-        margin: 60vh 25%;
+        margin: 60vh 15%;
     }
 
     header p {
-        margin: 75vh 20%;
+        margin: 75vh 10%;
     }
 
     /* MAIN */
@@ -310,14 +313,14 @@ footer a:hover {
 
     /* SECTION 2 */
     main section:nth-of-type(2) span {
-        word-spacing: 0; 
+        word-spacing: 0;
         font-size: 0.5em;
     }
 
     /* YOUTUBE VID */
     iframe {
         width: 100%;
-        margin: 0 ;
+        margin: 0;
     }
 
     /* SECTION 3*/
